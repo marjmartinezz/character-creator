@@ -1,2 +1,15 @@
 .buttonRow {
+  /*
+    this element houses absolutely-positioned visually hidden
+    labels. We want them to be contained by this scroll
+    container, to avoid introducing scrollbars
+  */
+  position: relative;
+
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: -22px;
+  margin-right: -22px;
+  margin-bottom: -22px;
+  padding: 22px;
 }
